@@ -1,0 +1,19 @@
+{
+  "name": "Pratibha-Patil-Code-Exercise",
+  "version": "1.0.0",
+  "description": "HCL Test",
+  "main": "main.js",
+  "dependencies": {
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "start": "node  main/main.js",
+	"test" : "mocha test/test-pages.js"
+  },
+  "devDependencies": {
+    "request": "^2.83.0",
+	"express": "^4.15.2",
+	"chai": "^3.5.0",
+	"mocha": "^8.5.0"
+  }
+}
